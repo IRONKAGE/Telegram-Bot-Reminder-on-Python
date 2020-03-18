@@ -5,4 +5,4 @@ Telegram-Bot-Reminder-on-Python (Бот для Нагадування)
 
 #Instruction 
 
-[](#lang-us)
+:us:
