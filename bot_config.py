@@ -1,0 +1,2 @@
+TOKEN = 'BotID'
+ID = '-ChatID'
