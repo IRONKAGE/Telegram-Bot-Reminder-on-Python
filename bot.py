@@ -17,8 +17,8 @@ def telegram_bot_sendtext(bot_message):
 VerbsForWeekDay = ["Сьогодні в нас", "Отакої", "Неочікувано але", "І що то робити, якщо", "Невстиг простунись як вже", "Невже настав"]
 VerbsForCall = ["Привіт! Ти ж пам'ятаєш, що в нас мітинг за 5хв?", "Як сі маєш? Але то таке - гайда на мітинг!", "Чьо, как? - Будь готовий дати відповідь замовнику =)", "Прівітусіки! І слід шурусіки на міт...", "Хай! Заходь вгості по лінку", "Ти, той во - заходь якшо шо...", "Здоровенькі були, якщо є сили то гайда на мітинг!", "Володарі - прошу підіть на мітинг, бо можуть бути не переливки..."]
 
-if todayWeekDay == 0 or todayWeekDay == 6:
-    reminder_text = telegram_bot_sendtext("Вихідні, хоч це й не помітно... \nперевірка Бота на логіку")
+if todayWeekDay == 5 or todayWeekDay == 6:
+    reminder_text = telegram_bot_sendtext(f"{tranformWeekDayFromNumberToString} \nВихідні, хоч це й не помітно...")
 else:
     reminder_text = telegram_bot_sendtext("{} {} \n{}".format(
                                                             random.choice(VerbsForWeekDay),
