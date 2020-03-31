@@ -24,5 +24,5 @@ else:
                                                             random.choice(VerbsForWeekDay),
                                                             tranformWeekDayFromNumberToString,
                                                             random.choice(VerbsForCall)))
-
+# 0 = Понеділок, 1 = Вівторок, 2 = Середа, 3 = Четвер, 4 = П'ятниця, 5 = Субота, 6 = Неділя
 print(reminder_text)
