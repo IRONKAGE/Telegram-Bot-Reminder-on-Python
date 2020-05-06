@@ -23,7 +23,7 @@ Telegram-Bot-Reminder-on-Python (Бот для Нагадування)
 
 3️⃣ Start this `bot.py`
 
-- PS. Don't forget to `bot_onfig.py` write tokens 😉
+- PS. Don't forget to `bot_сonfig.py` write tokens 😉
 
     - `https://api.telegram.org/bot<yourtoken>/getUpdates`
 
@@ -59,7 +59,7 @@ Telegram-Bot-Reminder-on-Python (Бот для Нагадування)
 
 3️⃣ Запускати слід `bot.py`
 
-- PS. Не забудьте у `bot_onfig.py` записати Токени 😉
+- PS. Не забудьте у `bot_сonfig.py` записати Токени 😉
 
     - `https://api.telegram.org/bot<yourtoken>/getUpdates`
 
